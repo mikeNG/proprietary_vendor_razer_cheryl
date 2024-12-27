@@ -208,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libchromatix_s5k2l7sa05_rcl_wide_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_rcl_wide_4k_preview_3a.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libchromatix_s5k2l7sa05_rcl_wide_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_rcl_wide_4k_video_3a.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libchromatix_s5k2l7sa05_rcl_wide_720p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_rcl_wide_720p_preview_3a.so \
@@ -366,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_chicony_s5k3h7_rcl_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chicony_s5k3h7_rcl_front_eeprom.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
@@ -427,10 +425,8 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_m24c64s_rcl_tele_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_rcl_tele_eeprom.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_m24c64t_rcl_wide_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64t_rcl_wide_eeprom.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
@@ -442,12 +438,10 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_s5k3h7_rcl_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_rcl_front.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_s5k3m3sm_rcl_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m3sm_rcl_tele.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_sat_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_lib.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
@@ -455,7 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
@@ -484,14 +477,12 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/razer/cheryl/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/razer/cheryl/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
